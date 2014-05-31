@@ -2,9 +2,12 @@ RenamedClassLoader
 ==================
 Simple loader for loading old/renamed classes with `onClassLoaded` event useful e.g. for logging or noticing that old class name is used. The loader uses `class_alias()` function to alias new class name with the old one.
 
+Composer
+--------
+require: `"icaine/renamed-class-loader": "~1.0"`
+
 Usage
 -----
-
 ```php
 //registering classes
 $loader = new iCaine\RenamedClassLoader([
