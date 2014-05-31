@@ -1,5 +1,5 @@
 {
-	"name": "vendor/RenamedClassLoader",
+	"name": "icaine/renamed-class-loader",
 	"description": "Class loader that triggers a callback when using old class name",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
