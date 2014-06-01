@@ -1,5 +1,8 @@
 RenamedClassLoader
 ==================
+
+[![Build Status](https://travis-ci.org/icaine/RenamedClassLoader.svg?branch=master)](https://travis-ci.org/icaine/RenamedClassLoader)
+
 Simple loader for loading old/renamed classes with `onClassLoaded` event useful e.g. for logging or noticing that old class name is used. The loader uses `class_alias()` function to alias new class name with the old one.
 
 Composer
